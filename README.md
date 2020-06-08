@@ -7,6 +7,7 @@ A solution to enable users of news websites and open/closed social platforms to 
 ## Contents
 
 1. [Short description](#short-description)
+1. [Try it!](#Try-it)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
 1. [IBM Services Used](#ibm-services-used)
@@ -41,6 +42,13 @@ and also guide us to proper channels in the times of crises,such as COVID-19 pan
 We aim to develop a solution to enable users of news websites and open/closed social platforms to request fact-checks directly from their browser or mobile app. These fact-checks will be performed directly against multiple government-verified data sources, and falsified information could be readily identified.
 
 With our product - NovelFacts, we are providing open source tools in two forms - Whatsapp ChatBot and Websites - which will enable users to validate information.
+
+## Try it !
+Try connecting with our Whatsapp bot - 
+1. Please send a WhatsApp message to **+1 415 523 8886** 
+2. Text ```join when-mental``` to the bot
+3. Ask queries related to COVID-19
+
 
 ## Demo video
 
