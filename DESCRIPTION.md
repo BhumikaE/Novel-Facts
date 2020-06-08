@@ -10,7 +10,6 @@ For building our Fake News dataset, we have scraped data (in the form of both te
 
 Users can directly forward messages to the Whatsapp bot, or add their queries in the browser.
 These messages can be in the form of -
-- URL Link
 - Text
 - Images
 - Audio
@@ -33,6 +32,9 @@ On top of these BERT embeddings, we have calculated cosine similarity to identif
 
 We have used open-cv for image processing, and calculated similarities using measures like mean square errors and structural similarity.
 
+### 1.6 Watson Speech to Text
+
+This service was used to translate the incoming messages from the users which were in audio format. We have currently added support for 'mpeg' format, and we will further extend it to include 'ogg'(Whatsapp voice notes format)
 
 ## 2. Integration with Twilio
 

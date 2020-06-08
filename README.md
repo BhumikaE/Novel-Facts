@@ -1,6 +1,6 @@
-# Fact-Check Bot
+# NovelFacts 
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A solution to enable users of news websites and open/closed social platforms to request fact-checks directly from their browser or mobile app. 
 
@@ -9,17 +9,15 @@ A solution to enable users of news websites and open/closed social platforms to 
 1. [Short description](#short-description)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
+1. [IBM Services Used](#ibm-services-used)
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
-1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
 1. [Built with](#built-with)
-1. [Contributing](#contributing)
-1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
+1. [Sources](#sources)
 
 ## Short description
 
@@ -46,11 +44,11 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 
 ## Demo video
 
-[![Watch the video](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
+[![Watch the video](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
 
 ## The architecture
 
-![Novel Facts/Fake News Detection](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/ArchitectureDiagram.png)
+![Novel Facts/Fake News Detection](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/ArchitectureDiagram.png)
 
 1. The user sends data (text/images/audio messages) for fact-checking via the Whatsapp chatbot or the browser.
 2. Text similarity detection will be performed using BERT.
@@ -58,13 +56,21 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 4. Regional/foreign languages will be converted into English using Google Translate.
 5. Image Processing techniques and open-cv will be used for Image Similarity Detection
 
+
+## IBM Services Used
+
+- [Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text)
+
+  This service was used to translate the incoming messages from the users which were in audio format.
+  We have currently added support for 'mpeg' format, and we will further extend it to include 'ogg'(Whatsapp voice notes         format)
+  
 ## Long description
 
 [More detail is available here](DESCRIPTION.md)
 
 ## Project roadmap
 
-![Roadmap](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/roadmap.PNG)
+![Roadmap](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/roadmap.PNG)
 
 ## Getting started
 
@@ -72,61 +78,24 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Have python3.7 installed on your system and run the following command -
 
 ```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+pip install -r requirements.txt
 ```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
+From the project directory run the following commands -
 
 ```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
+cd src
+python bot.py
 ```
-
-And repeat
 
 ```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
+cd src
+streamlit run app.py
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instnance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
-
 ## Live demo
 
 To connect with our Whatsapp bot, please send a WhatsApp message to +1 415 523 8886 with the code: join when-mental.
@@ -135,12 +104,12 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [BERT](https://arxiv.org/abs/1810.04805) - State-of-the-Art Pre-training for Natural Language Processing
+* [Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text) - Convert audio and voice into written text for quick understanding of content
+* [OpenCV](https://opencv.org/) - Library of programming functions mainly aimed at real-time computer vision
+* [Google Translate](https://translate.google.co.in/) - multilingual statistical and neural machine translation service developed by Google
+* [Twilio](https://www.twilio.com/) - Twilio allows software developers to programmatically make and receive phone calls, send and receive text/whatsapp messages
+* [Streamlit](https://www.streamlit.io/) - Open-source app framework to build visualizations using Python
 
 
 ## Authors
