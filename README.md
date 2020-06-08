@@ -103,12 +103,12 @@ You can find a running system to test at [callforcode.mybluemix.net](http://call
 
 ## Built with
 
-* [IBM Cloudant](https://cloud.ibm.com/catalog?search=cloudant#search_results) - The NoSQL database used
-* [IBM Cloud Functions](https://cloud.ibm.com/catalog?search=cloud%20functions#search_results) - The compute platform for handing logic
-* [IBM API Connect](https://cloud.ibm.com/catalog?search=api%20connect#search_results) - The web framework used
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* [BERT](https://arxiv.org/abs/1810.04805) - State-of-the-Art Pre-training for Natural Language Processing
+* [Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text) - Convert audio and voice into written text for quick understanding of content
+* [OpenCV](https://opencv.org/) - Library of programming functions mainly aimed at real-time computer vision
+* [Google Translate](https://translate.google.co.in/) - multilingual statistical and neural machine translation service developed by Google
+* [Twilio](https://www.twilio.com/) - Twilio allows software developers to programmatically make and receive phone calls, send and receive text/whatsapp messages
+* [Streamlit](https://www.streamlit.io/) - Open-source app framework to build visualizations using Python
 
 
 ## Authors
