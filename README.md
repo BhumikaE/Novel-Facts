@@ -59,7 +59,7 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 
 ## IBM Services Used
 
-- ![Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text)
+- [Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text)
   This service was used to translate the incoming messages from the users which were in audio format.
   We have currently added support for 'mpeg' format, and we will further extend it to include 'ogg'(Whatsapp voice notes         format)
   
