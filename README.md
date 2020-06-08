@@ -46,11 +46,11 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 
 ## Demo video
 
-[![Watch the video](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
+[![Watch the video](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
 
 ## The architecture
 
-![Novel Facts/Fake News Detection](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/ArchitectureDiagram.png)
+![Novel Facts/Fake News Detection](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/ArchitectureDiagram.png)
 
 1. The user sends data (text/images/audio messages) for fact-checking via the Whatsapp chatbot or the browser.
 2. Text similarity detection will be performed using BERT.
@@ -64,7 +64,7 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 
 ## Project roadmap
 
-![Roadmap](https://github.com/BhumikaE/Fact-Check-Bot/blob/master/src/Docs/roadmap.PNG)
+![Roadmap](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/roadmap.PNG)
 
 ## Getting started
 
