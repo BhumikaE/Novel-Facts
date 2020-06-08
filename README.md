@@ -43,7 +43,7 @@ We aim to develop a solution to enable users of news websites and open/closed so
 
 With our product - NovelFacts, we are providing open source tools in two forms - Whatsapp ChatBot and Websites - which will enable users to validate information.
 
-## Try it !
+## Try it!
 Try connecting with our Whatsapp bot - 
 1. Please send a WhatsApp message to **+1 415 523 8886** 
 2. Text ```join when-mental``` to the bot
