@@ -43,16 +43,15 @@ We aim to develop a solution to enable users of news websites and open/closed so
 
 With our product - NovelFacts, we are providing open source tools in two forms - Whatsapp ChatBot and Websites - which will enable users to validate information.
 
+## Demo video
+
+[![Watch the video](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
+
 ## Try it!
 Try connecting with our Whatsapp bot - 
 1. Please send a WhatsApp message to **+1 415 523 8886** 
 2. Text ```join when-mental``` to the bot
 3. Ask queries related to COVID-19
-
-
-## Demo video
-
-[![Watch the video](https://github.com/BhumikaE/Novel-Facts/blob/master/src/Docs/NovelFacts.jpeg)](https://www.youtube.com/watch?v=Geq8aDdXgFY&rel=0)
 
 ## The architecture
 
