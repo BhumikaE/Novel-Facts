@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	box-sizing: border-box;
+	background-image: url(C:/Users/aayus/Python/Scripts/homepage.jpg);
+	font-family:serif;
+	font-weight:bold;
+	font-color:#EEEEEE;
+}
+body {
+    color: #fff;
+    background-color: #F2F3F4;
+    background-image: url("C:/Users/aayus/Python/Scripts/homepage.jpg");
+}
+
+
+.stButton>button {
+    background:#175882;
+	width: 25%;
+    border-radius: 5px;
+    position: absolute;
+    top: 20%;
+	left: 35%;
+    cursor: pointer;
+    font: serif;
+    color:#EEEEEE;
+    font-weight:bold;
+    font-size: 18px;
+    display:flex;
+}
+
+.stButton>button .fas{
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	font-size: 18px;
+}
+
+.stTextInput>div>div>input {
+    color: #175882;
+    cursor: pointer;
+    top:35%;
+    font: serif;
+    width:50%;
+}
