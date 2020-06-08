@@ -1,6 +1,6 @@
-# Fact-Check Bot
+# NovelFacts 
 
-[![License](https://img.shields.io/badge/License-Apache2-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0) [![Slack](https://img.shields.io/badge/Join-Slack-blue)](https://callforcode.org/slack) [![Website](https://img.shields.io/badge/View-Website-blue)](https://code-and-response.github.io/Project-Sample/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 A solution to enable users of news websites and open/closed social platforms to request fact-checks directly from their browser or mobile app. 
 
@@ -9,17 +9,15 @@ A solution to enable users of news websites and open/closed social platforms to 
 1. [Short description](#short-description)
 1. [Demo video](#demo-video)
 1. [The architecture](#the-architecture)
+1. [IBM Services Used](#ibm-services-used)
 1. [Long description](#long-description)
 1. [Project roadmap](#project-roadmap)
 1. [Getting started](#getting-started)
-1. [Running the tests](#running-the-tests)
 1. [Live demo](#live-demo)
 1. [Built with](#built-with)
-1. [Contributing](#contributing)
-1. [Versioning](#versioning)
 1. [Authors](#authors)
 1. [License](#license)
-1. [Acknowledgments](#acknowledgments)
+1. [Sources](#sources)
 
 ## Short description
 
@@ -58,6 +56,13 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 4. Regional/foreign languages will be converted into English using Google Translate.
 5. Image Processing techniques and open-cv will be used for Image Similarity Detection
 
+
+## IBM Services Used
+
+- ![Watson Speech to Text](https://www.ibm.com/in-en/cloud/watson-speech-to-text)
+  This service was used to translate the incoming messages from the users which were in audio format.
+  We have currently added support for 'mpeg' format, and we will further extend it to include 'ogg'(Whatsapp voice notes         format)
+  
 ## Long description
 
 [More detail is available here](DESCRIPTION.md)
@@ -72,14 +77,15 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Have python3.7 installed on your system and run the following command
+Have python3.7 installed on your system and run the following command -
 
 ```bash
 pip install -r requirements.txt
 ```
 
 ### Installing
-From the project directory run the following commands
+From the project directory run the following commands -
+
 ```bash
 cd src
 python bot.py
