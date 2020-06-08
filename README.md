@@ -72,61 +72,23 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+Have python3.7 installed on your system and run the following command
 
 ```bash
-dnf install wget
-wget http://www.example.com/install.sh
-bash install.sh
+pip install -r requirements.txt
 ```
 
 ### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be, for example
-
+From the project directory run the following commands
 ```bash
-export TOKEN="fffd0923aa667c617a62f5A_fake_token754a2ad06cc9903543f1e85"
-export EMAIL="jane@example.com"
-dnf install npm
-node samplefile.js
-Server running at http://127.0.0.1:3000/
+cd src
+python bot.py
 ```
 
-And repeat
-
 ```bash
-curl localhost:3000
-Thanks for looking at Code-and-Response!
+cd src
+streamlit run app.py
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why, if you were using something like `mocha` for instnance
-
-```bash
-npm install mocha --save-dev
-vi test/test.js
-./node_modules/mocha/bin/mocha
-```
-
-### And coding style tests
-
-Explain what these tests test and why, if you chose `eslint` for example
-
-```bash
-npm install eslint --save-dev
-npx eslint --init
-npx eslint sample-file.js
-```
-
 ## Live demo
 
 To connect with our Whatsapp bot, please send a WhatsApp message to +1 415 523 8886 with the code: join when-mental.
