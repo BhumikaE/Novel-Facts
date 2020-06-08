@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-A solution to enable users of news websites and open/closed social platforms to request fact-checks directly from their browser or mobile app. 
+A solution to enable users of news websites and open/closed social platforms to request fact-checks related to COVID-19 directly from their browser or mobile app. 
 
 ## Contents
 
