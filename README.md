@@ -51,7 +51,7 @@ With our product - NovelFacts, we are providing open source tools in two forms -
 Try connecting with our Whatsapp bot - 
 1. Please send a WhatsApp message to **+1 415 523 8886** 
 2. Text ```join when-mental``` to the bot
-3. Ask queries related to COVID-19
+3. Fact-check news related to COVID-19
 
 ## The architecture
 
