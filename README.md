@@ -100,7 +100,8 @@ streamlit run app.py
 
 To connect with our Whatsapp bot, please send a WhatsApp message to +1 415 523 8886 with the code: join when-mental.
 
-You can find a running system to test at [callforcode.mybluemix.net](http://callforcode.mybluemix.net/)
+We have currently hosted our UI locally (Could not deploy app on IBM cloud due to 256MB restriction on memory for the free VM)
+We plant to deploy this app on IBM cloud in the future. To test the working of the UI for now please use the above installation step to host the UI locally when testing. Alternatively, we will keep adding the updated IPs in the comments.
 
 ## Built with
 
