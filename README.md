@@ -7,8 +7,8 @@ A solution to enable users of news websites and open/closed social platforms to 
 ## Contents
 
 1. [Short description](#short-description)
-1. [Try it!](#Try-it)
 1. [Demo video](#demo-video)
+1. [Try it!](#try-it)
 1. [The architecture](#the-architecture)
 1. [IBM Services Used](#ibm-services-used)
 1. [Long description](#long-description)
