@@ -72,7 +72,7 @@ mccabe==0.6.1
 more-itertools==8.3.0
 networkx==2.4
 newsapi-python==0.2.6
-nltk==3.5
+nltk==3.6.6
 numpy==1.21.0
 opencv-python==4.2.0.34
 packaging==20.4
