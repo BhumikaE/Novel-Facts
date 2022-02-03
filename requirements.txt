@@ -138,7 +138,7 @@ tqdm==4.46.0
 transformers==2.11.0
 twilio==6.41.0
 twine==3.1.1
-urllib3==1.25.9
+urllib3==1.26.5
 virtualenv==20.0.21
 wcwidth==0.2.2
 webencodings==0.5.1
