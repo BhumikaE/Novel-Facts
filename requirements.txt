@@ -142,7 +142,7 @@ urllib3==1.26.5
 virtualenv==20.0.21
 wcwidth==0.2.2
 webencodings==0.5.1
-Werkzeug==1.0.1
+Werkzeug==2.2.3
 xlrd==1.2.0
 zipp==3.1.0
 streamlit
